@@ -48,12 +48,11 @@ const Posts = [
     },
 ]
 
-
 // Burada sorguda gelecek tanımları yazıyoruz.
 const typeDefs = `
   type Query {
     
-    
+
     user(id: ID!): User!
     post(id: ID!): Post!
     users: [User!]!
